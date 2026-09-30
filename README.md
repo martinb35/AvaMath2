@@ -21,3 +21,8 @@ From this directory: `npm start`, then open http://127.0.0.1:5173.
 Scores record the first submitted attempt per question. Retries do not inflate attempted/correct counts. Mastery weights the latest 12 attempts, and saved progress stays on the current browser/device. Changing topic or session settings starts a new session; prior attempts remain in progress. No student data is sent to a server.
 
 The interface is touch-first, with 52px controls, visible topic tiles, and iPad portrait/landscape layouts. The Calculator button opens a movable left/right floating panel with basic arithmetic, decimals, sign change, backspace, and answer transfer. Calculations run one operation at a time. Its value lasts until the page is refreshed. Physical keyboards support digits, operators, Enter or =, Backspace, Delete (clear), and Escape (close) while the panel is focused.
+
+## GitHub Pages
+
+The public app is hosted at https://martinb35.github.io/AvaMath2/.
+Every push to `main` runs syntax checks and tests, then deploys only `dist/` through `.github/workflows/pages.yml`. The workflow can also be run manually from GitHub Actions. Repository Settings → Pages must use GitHub Actions as the source. No Node server is needed on the host; progress remains local to each browser and hosting origin.
