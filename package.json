@@ -1,1 +1,10 @@
-{"name":"sixth-grade-math-practice","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node tests.mjs","check":"node --check dist/app.js && node --check dist/math.js && node --check dist/diagrams.js"}}
+{
+  "name": "sixth-grade-math-practice",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests.mjs && node calculator-tests.mjs",
+    "check": "node --check dist/app.js && node --check dist/math.js && node --check dist/diagrams.js && node --check dist/progress.js && node --check dist/calculator.js"
+  }
+}
