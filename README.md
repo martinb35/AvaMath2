@@ -1,6 +1,8 @@
 # 6th Grade Math Practice
 
-A dependency-free browser app with eight practice/progress sections, mixed sessions, randomized SVG geometry, guided retries, multiplication partial products, adaptive difficulty, and device-local mastery history.
+A dependency-free browser app with Geometry and Factoring sections, mixed sessions, randomized SVG geometry, guided retries, multiplication partial products, adaptive difficulty, and device-local mastery history.
+
+Factoring includes All Factors, Common Factors, and Greatest Common Factor practice with expandable teaching examples, hints, worked solutions, and progress tracking. Easy uses positive integers 1–36, Medium 1–84, and Hard 1–144. Factor lists use large selectable number buttons; GCF uses a numeric answer. Tests cover every number through 144 and all 20,736 ordered pairs, including 1, primes, and perfect squares.
 
 ## Run
 
