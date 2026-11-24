@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "test": "node tests.mjs && node calculator-tests.mjs && node factoring-tests.mjs",
-    "check": "node --check dist/app.js && node --check dist/math.js && node --check dist/diagrams.js && node --check dist/progress.js && node --check dist/calculator.js && node --check dist/factoring.js"
+    "test": "node tests.mjs && node calculator-tests.mjs && node factoring-tests.mjs && node rates-tests.mjs && node fractions-tests.mjs && node rates-session-tests.mjs",
+    "check": "node --check dist/app.js && node --check dist/math.js && node --check dist/diagrams.js && node --check dist/progress.js && node --check dist/calculator.js && node --check dist/factoring.js && node --check dist/rates.js && node --check dist/rates-ui.js && node --check dist/fractions.js"
   }
 }

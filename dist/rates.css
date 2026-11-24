@@ -1,0 +1,28 @@
+/* Unit 2 shares the application's cards, controls, feedback and breakpoints. */
+nav.sections{grid-template-columns:repeat(5,minmax(0,1fr))}
+.unit-controls{padding:22px 26px;margin-bottom:24px}
+.unit-modes{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.unit-controls p{margin:14px 0}
+.unit-controls label{max-width:440px}
+.unit-controls select{width:100%;min-width:0}
+.unit-mastery{margin-top:12px}
+.unit-progress{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 24px;padding:8px 0}
+.unit-progress>div{padding:12px 0;border-top:1px solid #dfe7e6}
+.unit-progress strong,.unit-progress span{display:block;line-height:1.6}
+.unit-progress span{color:#567670;font-size:14px}
+.rate-options{border:0;padding:0;margin:22px 0}
+.rate-options legend{padding:0 0 10px;line-height:1.5;font-weight:650}
+.rate-options .selected{background:#117c70;color:white;border-color:#08655b}
+.rate-answer-label{display:block;margin:22px 0 10px;font-weight:650;line-height:1.5}
+.ratio-visual{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0;padding:20px;background:#f5faf8;border:1px solid #dfe7e6;border-radius:12px}
+.ratio-visual strong{text-transform:capitalize}
+.object-group{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;color:#117c70;font-size:30px;line-height:1.2}
+.ratio-visual>div:nth-child(2) .object-group{color:#8a570c}
+.rate-help .explanation{margin-bottom:14px}
+.ratio-keypad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;max-width:360px;margin-top:12px}
+.ratio-keypad button{min-height:56px;font-size:23px;font-variant-numeric:tabular-nums}
+.ratio-keypad .ratio-colon{background:#ddefe9;border-color:#117c70;font-size:30px;color:#08655b}
+.ratio-keypad .ratio-clear{grid-column:1/-1;font-size:16px}
+.ratio-readout{display:block;min-height:24px;margin-top:8px;color:#456461;font-size:14px}
+@media(max-width:700px){nav.sections{grid-template-columns:repeat(2,minmax(0,1fr))}.unit-controls{padding:18px}.unit-modes{display:grid;grid-template-columns:1fr 1fr}.unit-modes button{padding:10px;font-size:15px}.unit-progress{grid-template-columns:1fr}.ratio-visual{gap:14px;padding:14px}.object-group{gap:9px;font-size:28px}}
+@media(max-width:380px){.ratio-visual{grid-template-columns:1fr}.unit-modes{grid-template-columns:1fr}}
